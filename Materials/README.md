@@ -38,6 +38,20 @@ tags: documentation, ambassadors
     * https://annex.softwareheritage.org/public/talks/2021/2021-01-11-RRPR.pdf
     * https://doi.org/10.5281/zenodo.3667713
 - Collection of messages - twitter friendly  
+- Number fact sheets, no plot, updated twice a year: 
+    - Number of files in the archive
+    - Number of projects in the archive
+    - Number of “sources” (github.com, gitlab.com, cran, pypi…)
+    - Archive size in To (uncompressed and compressed)
+    - Number of current copies / mirrors (with location)
+    - Number of core staff people
+    - Number of ambassadors
+    - Number of “save code now” requests per month (through web interface or api)
+- SWH ambassador's presentation template
+  - pptx 
+  - Org-mode
+  - Google slides
+- Access collection of images/diagrams (location TBD)
 
 ### Ideas of actions
 #### Connect with communities, expand the archive
@@ -61,3 +75,11 @@ tags: documentation, ambassadors
 - Astronomical Data Analysis Software and Systems (ADASS): https://www.adass.org/
 - IVOA https://ivoa.net/
 - Create a list of communities to engage with through the Ambassador's program
+- Hall of fame of software- showcase of important software
+- Reflection about software perception in society - what are the benefits of social archival to society - interdisciplinary working group
+- Can we get the shut down repositories from google/microsoft/attlasian?
+- Create a LinkedIn group?
+- Create archive-athon events to archive software from specific fields (maybe on the Software Heritage day, see below)
+- In the field of bioinformatics / computational biology, we could write a “10 simple rules” article in the PLOS Computational Biology journal to present good practices for software archiving.
+- adding clickable SWHIDs on slides that show our science result plots (assuming the code behind the plots are already in SoftwareHeritage). We can actually click on the SWHID to go into SoftwareHeritage during the science talk on that plot, and show the code that produced the plot. 
+- (Science) Papers: put the SWHID of the code behind a listing/plot/figure that is shown in paper in the footnote of the page we are discussing the plot. For example see the end of the caption of Listing 1 in DOI:10.1109/MCSE.2021.3072860 (as well as other places where you see SWHIDs in that paper).
