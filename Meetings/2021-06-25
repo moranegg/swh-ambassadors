@@ -1,0 +1,834 @@
+
+# **Software Heritage ambassadors first plenary meeting**
+
+
+## Friday 25th June 2021 15:00–17:00 CEST (UTC+2)
+
+
+## Connection details
+
+Join Zoom Meeting
+
+[https://u-paris.zoom.us/j/87176451562?pwd=Rk9FRkt3c25XSTQxdlU3ZUcraTRiUT09](https://u-paris.zoom.us/j/87176451562?pwd=Rk9FRkt3c25XSTQxdlU3ZUcraTRiUT09)
+
+Meeting ID: 871 7645 1562
+
+Secret code: 401489
+
+**the meeting will be recorded and shared on YouTube under “unlisted”**
+
+
+## Agenda
+
+1. Welcome and introductions (15 min)
+
+2. Software Heritage: everything you always wanted to know and never dared to ask (Roberto Di Cosmo, 60 min)
+
+3. Best practices for the good SWH ambassador (Morane Gruenpeter, 15 min)
+
+4. Discussion & activity (25 min)
+
+5. closing (5 min)
+
+
+## References
+
+
+
+* [Draft FAQ](https://hedgedoc.softwareheritage.org/lw-XTHaYQv2fDPJ9bIpU1Q)
+* [Ambassadors program page](https://www.softwareheritage.org/ambassadors/) 
+* [Wiki page onboarding](https://wiki.softwareheritage.org/wiki/Ambassadors_onboarding)
+* [Mailing list](https://sympa.inria.fr/sympa/info/swh-ambassadors) (the mailing list [archives](https://sympa.inria.fr/sympa/arc/swh-ambassadors/2021-06/))
+* [Materials page](https://www.softwareheritage.org/ambassador-material/) 
+* link to [Morane’s presentation](https://docs.google.com/presentation/d/1QTI0qNxbYQ691T9nuAVkhBCItnYd064iz8GYuEblu5c/edit?usp=sharing) - a first try of the SWH template
+* [Archive](archive.softwareheritage.org/)
+* [Newsletter](https://www.softwareheritage.org/newsletter/)
+
+
+## Collaborative Notes
+
+Here we can type the notes..
+
+
+### Welcome and introductions
+
+Participating:
+
+
+
+* Roberto Di Cosmo, Director of Software Heritage, Inria, France
+* Morane Gruenpeter, Ambassadors coordinator, Software Heritage, Inria, France
+* Pierre Poulain, 
+* Gerard Coen, Project Manager, DANS, the Netherlands 
+* Bostjan Spetic
+* Bruno Khélifi
+* Dare Pejić
+* Maria Chiara Prodi
+* Mohammad Akhlaghi
+* Neal Fultz
+* Sandrine Layrisse
+* Vicky Rampin
+
+Apologies:
+
+
+
+* Jaime Arias
+* Malin Sandström 
+* Anna-Lena Lamprecht 
+* Borut Spetic
+* Alexis Lebis
+
+
+### Software Heritage: everything you always wanted to know and never dared to ask 
+
+
+## (Roberto Di Cosmo, 60 min)
+
+
+
+1. Software source code- an endangered heritage
+    1. Forge : Collaborative development => no guarantee (e.g Google Code, Gitorious, CodePlex)
+    2. Distribution platform
+    3. Archive
+2. Software Heritage mission
+    4. Reference catalog
+    5. Universal archive
+    6. Research infrastructure
+3. Our principles
+    7. Open approach
+    8. Objectivity
+    9. Long term
+4. Different taglines depending on the area
+    10. Culture => The Library of Alexandria of source code
+    11. Research => building the software pillar of Open Science
+    12. Research => The very large telescope of software source code
+    13. Industry => the universal software source code knowledge base
+5. All the source code (not just public open source code)
+    14. Implementation is currently for Online + Open
+    15. Chart the source code dimension 
+        * Online + open = automation
+        * Online + closed = escrow
+        * Offline + open = crowdsourcing
+        * Offline + closed = Focused search
+6. The SofWare Heritage Identifiers (SWHID)
+    16. An emerging standard
+7. Building together a revolutionary infrastructure
+    17. Software graph -> tracks all software around the world
+    18. Software blockchain
+    19. Open Science pillar
+    20. Big code -> data playground 
+8. Highlights from the launching phase
+9. Supporters and sponsors
+10. Roadmap
+    21. Launch phase - 2015-2018
+        * Vision
+        * Team
+        * Core infrastructure
+        * Identity
+        * legitimacy
+    22. Building - 2019-2023
+        * Expand collection
+        * Support use cases
+        * Build community
+        * Grow mirror network
+        * Independent foundation
+    23. Flying (2024-infity)
+        * Maintain +  Evolve
+            * Archive, community
+            * Bylaws, organisation
+        * Interact + engage
+            * 
+11. Organisation
+    24. The Software heritage Foundation (SHF)
+        * Temporarily hosted by Inria foundation
+    25. Inria 
+        * Day-today operation 
+    26. UNESCO
+        * A program
+12. Outreach
+    27. Communication
+    28. Policy and awareness
+13. Policy highlight: the EU copyright reform
+14. Policy highlight: [the Paris call](https://en.unesco.org/foss/paris-call-software-source-code)
+15. Policy highlight: open science
+    29. FAIR
+    30. ARDC (Archive, Reference, Describe, Share)
+16.  Collect - Preserve - Share
+17. Adoption
+18. Community building
+19. Evolution in scope
+20. Ressources
+
+<table>
+  <tr>
+   <td>
+Question
+   </td>
+   <td>Answer
+   </td>
+  </tr>
+  <tr>
+   <td>Mohammad: An important component of longevity of a tool (SoftwareHeritage in this case) is its dependencies. Does the core (non-web) component of SoftwareHeritage depend on Python 3.7+? (as I understood from the development pages) If so, won’t this be a problem when Python X.Y comes, that is not compatible with Python 3.7 anymore? For a long-term vision, wouldn’t C (with no/minimal dependencies) have been a better choice? This is how Git is programmed for example: C with no dependencies. Because C is the only language that promises longevity. Also, web interfaces evolve very fast, what is the plan to keep up to date with these changes (won’t such maintenance issues consume too much time+financial resources)? 
+   </td>
+   <td>We allow and even encourage mirrors to be written in different languages.
+<p>
+Why python?
+<p>
+Typically religious issue in programming
+<p>
+When you choose a programming language is a social issue - who can be the contributors to the project 
+   </td>
+  </tr>
+  <tr>
+   <td>Bostjan: when archiving online software / custom developed web sites, preserving the database schema and content is imperative. Do we expect to support this “form” as well?
+   </td>
+   <td>“I want to run the software?”
+<p>
+Nobody was taking care of the code at all, we are building a low level infrastructure only for the source code, not because running is not important, but because we want to focus on the source code.
+   </td>
+  </tr>
+  <tr>
+   <td>If I want to ask my government to preserve all the code, how should I go about it?
+   </td>
+   <td>code.etalab.gouv.fr
+   </td>
+  </tr>
+  <tr>
+   <td>Mirror - how to encourage institutions to have a mirror?
+   </td>
+   <td>[To complete]
+<p>
+If you know someone who wants to do massive analysis on source code -you need a mirror.
+<p>
+ENEA
+   </td>
+  </tr>
+  <tr>
+   <td>What’s the total size necessary?
+   </td>
+   <td>Half a peta-byte -> obj storage
+<p>
+Budget - half a million euros 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+### Announcement
+
+The Software Heritage annual face-to-face meeting - November 30th in Paris at UNESCO headquarters 
+
+
+
+* Please let me know if you need travel support at [morane@softwareheritage.org](mailto:morane@softwareheritage.org)
+
+
+## Activity
+
+
+<table>
+  <tr>
+   <td>
+<h3>1. Materials</h3>
+
+
+   </td>
+   <td>upvotes
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1.1 What are the materials you wish to have?</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Collection of messages - twitter friendly 
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Number fact sheets, no plot, updated twice a year: 
+<ul>
+
+<li>Number of files in the archive
+
+<li>Number of projects in the archive
+
+<li>Number of “sources” (github.com, gitlab.com, cran, pypi…)
+
+<li>Archive size in To (uncompressed and compressed)
+
+<li>Number of current copies / mirrors (with location)
+
+<li>Number of core staff people
+
+<li>Number of ambassadors
+
+<li>Number of “save code now” requests per month (through web interface or api)
+</li>
+</ul>
+   </td>
+   <td>+1+1+1
+<p>
++1
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1.2 Would you use GitLab to contribute to the FAQ?</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>I can use the issues to give my feedback
+   </td>
+   <td>+1+1+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>I will use the web-interface to edit the content
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>I can do a Pull Request on the GitLab 
+   </td>
+   <td>+1+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>I don’t feel comfortable with this tool, I’ll prefer sending feedback by email
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>1.3 What do you need to present SWH?</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Visual template:
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ul>
+
+<li>pptx
+</li>
+</ul>
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ul>
+
+<li>Google slide?
+</li>
+</ul>
+   </td>
+   <td>+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+<ul>
+
+<li>Org-mode / LaTeX ?
+</li>
+</ul>
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Access to existing images/diagrams
+   </td>
+   <td>+1+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Text and information
+   </td>
+   <td>+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Latest stats:  Archives size
+<ul>
+
+<li>Fact sheet 
+</li>
+</ul>
+   </td>
+   <td>+1+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Correct way to pronounce “SWHID”
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+   <td>
+<h3>2. Ideas of action</h3>
+
+
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2.0 free form ideas</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Hall of fame of software
+   </td>
+   <td>+1
+   </td>
+  </tr>
+  <tr>
+   <td>Showcase of important software
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Reflection about software perception in society - what are the benefits of social archival to society - interdisciplinary working group
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Can we get the shut down repositories from google/microsoft/attlasian?
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Create a LinkedIn group?
+   </td>
+   <td>+1
+   </td>
+  </tr>
+  <tr>
+   <td>Create archive-athon events to archive software from specific fields (maybe on the Software Heritage day, see below)
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Software heritage day
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2.1 What are the actions an ambassador can do? Box of ideas </strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Presentations 
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Articles
+<p>
+In the field of bioinformatics / computational biology, we could write a “10 simple rules” article in the <a href="https://collections.plos.org/collection/ten-simple-rules/">PLOS Computational Biology</a> journal to present good practices for software archiving.
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Professional talks: adding clickable SWHIDs on slides that show our science result plots (assuming the code behind the plots are already in SoftwareHeritage). We can actually click on the SWHID to go into SoftwareHeritage during the science talk on that plot, and show the code that produced the plot. 
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>(Science) Papers: put the SWHID of the code behind a listing/plot/figure that is shown in paper in the footnote of the page we are discussing the plot. For example see the end of the caption of Listing 1 in DOI:<a href="https://doi.org/10.1109/MCSE.2021.3072860">10.1109/MCSE.2021.3072860</a> (as well as other places where you see SWHIDs in that paper).
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2.2 who would you like to contact (people, organizations, initiatives, WG)?</strong>
+<p>
+<strong> </strong>(you can also send this information privately to me morane@softwareheritage.org)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>INCF community, especially the  (Computational Neuroscience) Software WG
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Live coders 
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>2.3 What are the events and venues in your community where the SWH can be presented?</strong>
+<p>
+<strong> </strong>(even if you don’t feel fluent enough to present SWH by yourself)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Astronomical Data Analysis Software & Systems (https://www.adass.org)
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>INCF Assembly
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+   <td>
+<h3>3. Feedback on features</h3>
+
+
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3.1 Where should we gather feedback on existing features?</strong>
+   </td>
+   <td>upvotes
+   </td>
+  </tr>
+  <tr>
+   <td>Mailing list
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Form 
+   </td>
+   <td>1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Tickets / issues on a (private?) forge
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>3.2 Where should we gather feedback on new features (only available to ambassadors)?</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Mailing list
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Tickets / issues on a (private?) forge
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+   <td>
+<h3>4. Meetings</h3>
+
+
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4.1 How often would you like to have a group meeting</strong>
+   </td>
+   <td>upvotes
+   </td>
+  </tr>
+  <tr>
+   <td>Once a year
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Twice a year
+   </td>
+   <td>1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Three times a year
+   </td>
+   <td>2+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>Four times a year
+   </td>
+   <td>+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>7-8 meetings a year
+   </td>
+   <td>+1
+   </td>
+  </tr>
+  <tr>
+   <td>Monthly (11 meetings)
+   </td>
+   <td>+1
+   </td>
+  </tr>
+  <tr>
+   <td><strong>4.2 What would you like to have during the meeting?</strong>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Updates, ideas for sharing/communication
+   </td>
+   <td>+1+1+1+1
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
